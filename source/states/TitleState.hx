@@ -13,32 +13,32 @@ function create() {
     FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 	FlxG.sound.music.fadeIn(5, 0, 0.7);
 	
-	SKY = new FlxSprite().loadGraphic(Paths.image("menus/titlescreen/sky"));
+	SKY = new FlxSprite().loadGraphic(Paths.image("menus/sky"));
     SKY.screenCenter();
     SKY.scale.set(0.4,0.4);
     SKY.alpha = 0;//0.65原
     add(SKY);
 
-    ruins = new FlxSprite().loadGraphic(Paths.image("menus/titlescreen/ruins"));
+    ruins = new FlxSprite().loadGraphic(Paths.image("menus/ruins"));
     ruins.screenCenter();
     ruins.scale.set(0.4,0.4);
     ruins.alpha = 0;//1原
     add(ruins);
 
-    SM_LOGO = new FlxSprite().loadGraphic(Paths.image("menus/titlescreen/SMLogo"));
+    SM_LOGO = new FlxSprite().loadGraphic(Paths.image("menus/SMLogo"));
     SM_LOGO.screenCenter();
     SM_LOGO.scale.set(0.3,0.3);
     SM_LOGO.alpha = 0;//1原
     add(SM_LOGO);
     
-    SM_Enter = new FlxSprite().loadGraphic(Paths.image("menus/titlescreen/SMEnter"));
+    SM_Enter = new FlxSprite().loadGraphic(Paths.image("menus/SMEnter"));
     SM_Enter.screenCenter();
     SM_Enter.scale.set(0.3,0.3);
     SM_Enter.alpha = 0;//1原
     add(SM_Enter);
 
     
-    blackScreen = new FlxSprite().loadGraphic(Paths.image("menus/titlescreen/blackScreen"));
+    blackScreen = new FlxSprite().loadGraphic(Paths.image("menus/blackScreen"));
     blackScreen.screenCenter();
     blackScreen.alpha = 0.9;//0.9原
     add(blackScreen);
